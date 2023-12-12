@@ -1,8 +1,15 @@
-import "../../../Sass/app.scss"
+import "../../../Sass/home.scss"
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
     return (
         <div>
+            <section>
+                <Navbar></Navbar>
+            </section>
+
+
+
             <section>Hero</section>
             <section>Parallax</section>
             <section>Services</section>

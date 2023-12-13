@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <Sidebar></Sidebar>
-            <div className='navbar  md:max-w-[1000px]  mx-auto p-10'>
+            <div className='navbar  md:max-w-[1000px]  mx-auto sm:pt-10 pb-5'>
                 <div className='wrapper w-[100%] flex justify-between '>
                     {/* Logo  */}
                     <div><Logo></Logo></div>

@@ -1,11 +1,12 @@
-import '../../../Sass/navbar.scss'
 import Logo from './Logo';
+import Sidebar from './Sidebar/Sidebar';
 import SocialLinks from './SocialLinks';
 
 const Navbar = () => {
     return (
         <div>
-            <div className='navbar w-[1200px]  mx-auto'>
+            <Sidebar></Sidebar>
+            <div className='navbar  md:max-w-[1000px]  mx-auto p-10'>
                 <div className='wrapper w-[100%] flex justify-between '>
                     {/* Logo  */}
                     <div><Logo></Logo></div>

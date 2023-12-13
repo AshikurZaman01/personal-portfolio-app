@@ -4,14 +4,13 @@ import Navbar from "../Navbar/Navbar";
 const Home = () => {
     return (
         <div>
-            <section>
+            <section id="Home">
                 <Navbar></Navbar>
             </section>
 
 
-
             <section>Hero</section>
-            <section>Parallax</section>
+            <section id="About">Parallax</section>
             <section>Services</section>
             <section>Portfolio1</section>
             <section>Portfolio2</section>

@@ -23,7 +23,7 @@ const SocialLinks = () => {
     return (
         <div>
             {/* Motion animation applied to the list of social links */}
-            <motion.ul variants={variants} initial="hidden" animate="visible" className="flex flex-row justify-center gap-4">
+            <motion.ul variants={variants} initial="hidden" animate="visible" className="flex flex-col md:flex-row justify-center gap-4">
                 {links.map((item, i) => (
                     <motion.li variants={variants} key={item.key} custom={i}>
                         {item}

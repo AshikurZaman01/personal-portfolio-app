@@ -7,7 +7,9 @@ const ToggleButton = ({ setOpen }) => {
 
     return (
         <div>
-            <button onClick={handleClick} className='w-[30px] h-[30px] m-3 text-2xl fixed bg-transparent rounded-full cursor-pointer z-40'><RiMenu2Line /></button>
+            <button onClick={handleClick} className='w-[30px] h-[30px] m-3 text-2xl fixed bg-transparent rounded-full cursor-pointer z-40'>
+                <RiMenu2Line />
+            </button>
         </div>
     );
 };

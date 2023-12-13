@@ -8,10 +8,9 @@ const Home = () => {
 
     return (
         <div>
-            <section id="Homepage">
+            <section id="Home">
                 <Navbar />
             </section>
-
 
             <section id="About">About</section>
             <section id="Services">Services</section>

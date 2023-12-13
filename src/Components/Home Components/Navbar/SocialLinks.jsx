@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 const SocialLinks = () => {
     // Array of social links with corresponding icons
     const links = [
-        <Link key="github"><FaGithub className="text-xl" /></Link>,
-        <Link key="linkedin"><FaLinkedin className="text-xl" /></Link>,
-        <Link key="facebook"><FaFacebookSquare className="text-xl" /></Link>,
-        <Link key="instagram"><FaInstagramSquare className="text-xl" /></Link>,
+        <a key="github" href="https://github.com/ashikurzaman01" target="_blank" rel="noopener noreferrer"><FaGithub className="text-xl" /></a>,
+        <a key="linkedin" href="https://www.linkedin.com/in/md-ashikur-zaman-351769293" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-xl" /></a>,
+        <a key="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare className="text-xl" /></a>,
+        <a key="instagram" href="https://www.instagram.com/mdashikurzaman001/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare className="text-xl" /></a>,
     ];
 
     // Variants for motion animation

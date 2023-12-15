@@ -13,7 +13,7 @@ const HeroInfo = () => {
             <div className="flex items-end gap-2">
                 <h3 className="text-2xl font-semibold">And I am</h3>
 
-                <h3 className="change_text flex gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text shadow">
+                <h3 className="change_text flex gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text shadow shadow-pink-500 p-1">
                     <TypeAnimation
                         sequence={[
                             'Junior',
@@ -43,9 +43,24 @@ const HeroInfo = () => {
                     experiences.
                 </p>
 
-                <button className="flex mx-auto btn btn-md text-xl">
-                    Say Hello <span><IoIosSend /></span>
+                <button
+                    className="flex mx-auto btn btn-md text-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-0 hover:shadow-md hover:shadow-pink-500 relative"
+                    style={{ overflow: 'hidden' }}
+                >
+                    Say Hello{' '}
+                    <span
+                        style={{
+                            position: 'relative',
+                            top: 0,
+                            transition: 'top 0.3s ease', // Adjust the duration and easing as needed
+                        }}
+                    >
+                        <IoIosSend
+                            style={{ transition: 'top 0.3s ease' }} // Match the transition properties
+                        />
+                    </span>
                 </button>
+
             </div>
         </div>
     );

@@ -38,9 +38,7 @@ const HeroInfo = () => {
             <div>
                 <p className="text-justify py-5">
                     Welcome to my corner of the web! I am a highly motivated and detail-oriented Junior Front End Developer
-                    with a deep passion for creating visually stunning and user-friendly websites. My journey into the world of
-                    web development began with a love for design and a commitment to turning ideas into seamless, interactive
-                    experiences.
+                    with a deep passion for creating visually stunning and user-friendly websites.
                 </p>
 
                 <button

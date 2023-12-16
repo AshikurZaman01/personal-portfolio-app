@@ -3,7 +3,7 @@ import ImageAnimation from "./ImageAnimation";
 
 const Hero = () => {
     return (
-        <div className="md:max-w-[1100px] h-[80vh] mx-auto ">
+        <div className="md:max-w-[1100px] mx-auto ">
 
             <div className="flex md:flex-row flex-col items-center h-[80vh] gap-4">
                 <div className="w-[70%] order-2 md:order-1">
